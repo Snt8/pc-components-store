@@ -1,0 +1,81 @@
+/*standard web styles */
+
+* {
+    background-color: #3F3836;
+    color: #f1eada
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#products-section ol {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.product-image {
+    width: 100%;     
+    max-width: 350px;
+    height: 350px;
+    object-fit: contain;  
+    transition: transform 0.5s;
+}
+
+.product-image:hover {
+    transform: scale(1.1);
+    border: 2px solid #6d6665
+}
+
+#form-section h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#form-section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 35px;
+}
+
+#form-section form label {
+    display: block; 
+}
+
+#form-section h3, #form-section label {
+    text-align: center;
+}
+
+#form-section button {
+    border-radius: 5px;
+    max-width: 100px;
+    width: 100%;
+    height: 70%;
+    transition: transform 0.5s
+}
+
+#form-section button:hover {
+    transform: scale(1.1);
+    background-color: #696362;
+    color: #e4e4e4
+}
+
+input, textarea {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}   
+
+
+footer {
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
