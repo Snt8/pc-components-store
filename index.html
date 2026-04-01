@@ -8,62 +8,69 @@
         <title>Tienda de Componentes para Computadores</title>
     </head>
     <body>
-
-        <!--Headers-->
-        <section id="headers-section">
-            <h1>Compra aqui los mejores componentes para tu pc</h1>
-            <h2>Productos</h2>
-        </section>
+        <header>
+            <!--Headers-->
+            <section id="headers-section">
+                <h1>Compra aqui los mejores componentes para tu pc</h1>
+                <h2>Productos</h2>
+            </section>
+        </header>
         
-        <!--Product's list-->
-        <section id="products-section">
-            <ol>
-                <li>
-                    <p>AMD Ryzen 7 9800X3D</p>
-                    <img src="assets/amd-ryzen-9800x3d-picture.webp">
-                </li>
-                <li>
-                    <p>RTX 5090</p>
-                    <img src="assets/rxt5090-picture.jpg">
-                </li>
-                <li>
-                    <p>Modulos RAM 32GB DDR5 5200Mhz</p>
-                    <img src="assets/ram-ddr5-5200mhz.webp">
-                </li>
-            </ol>
-        </section>
+        <main>
+            <!--Product's list-->
+            <section id="products-section">
+                <ol>
+                    <li>
+                        <p>AMD Ryzen 7 9800X3D</p>
+                        <img class="product-image" src="assets/amd-ryzen-9800x3d-picture.webp">
+                    </li>
+                    <li>
+                        <p>RTX 5090</p>
+                        <img class="product-image" src="assets/rxt5090-picture.png">
+                    </li>
+                    <li>
+                        <p>Modulos RAM 32GB DDR5 5200Mhz</p>
+                        <img class="product-image" src="assets/ram-ddr5-5200mhz.avif">
+                    </li>
+                </ol>
+            </section>
 
-        <!--Form-->
-        <section id="form-section">
-            <h2>Contactanos</h2>
-            <form id="contact-form">
-                <div>
-                    <h3>Sugerencias</h3>
-                    <label for="sugerencia">Escribe tus sugerencias:</label>
-                        <input type="text" id="sugerencia" name="sugerencia">
-                </div>
+            <!--Form-->
+            <section id="form-section">
+                <h2>Contactanos</h2>
+                <form id="contact-form">
+                    <div>
+                        <h3>Sugerencias</h3>
+                        <label for="sugerencia">Escribe tus sugerencias:</label>
+                            <input type="text" id="sugerencia" name="sugerencia">
+                    </div>
 
-                <!--User's name-->
-                <div>
-                    <h3>Escribenos</h3>
-                    <label for="nombre">Ingresa tu nombre</label>
-                        <input type="text" id="nombre" name="nombre">
-                </div>
+                    <!--User's name-->
+                    <div>
+                        <h3>Escribenos</h3>
+                        <label for="nombre">Ingresa tu nombre</label>
+                            <input type="text" id="nombre" name="nombre">
+                    </div>
 
-                <!--User's email-->
-                <div>
-                    <label for="email">Ingresa tu correo electronico</label>
-                        <input type="email" id="email" name="email">
-                </div>
+                    <!--User's email-->
+                    <div>
+                        <label for="email">Ingresa tu correo electronico</label>
+                            <input type="email" id="email" name="email">
+                    </div>
 
-                <!--Message to send-->
-                <div>
-                    <label for="mensaje">Ingresa un mensaje</label>
-                        <textarea id="mensaje" name="mensaje"></textarea>
-                </div>
+                    <!--Message to send-->
+                    <div>
+                        <label for="mensaje">Ingresa un mensaje</label>
+                            <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
 
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p id="creditos">Edy S. Avila, 'Snt'</p>
+        </footer>
     </body>
 </html>
