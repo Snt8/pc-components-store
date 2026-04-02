@@ -29,6 +29,19 @@ header {
     border: 2px solid #6d6665
 }
 
+#every-product-section h2 {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 30px
+}
+
+#every-product-section ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
 #form-section h2 {
     text-align: center;
     margin-top: 50px;
@@ -52,7 +65,7 @@ header {
     text-align: center;
 }
 
-#form-section button {
+#form-section button, button {
     border-radius: 5px;
     max-width: 100px;
     width: 100%;
@@ -60,7 +73,7 @@ header {
     transition: transform 0.5s
 }
 
-#form-section button:hover {
+#form-section button:hover, button:hover {
     transform: scale(1.1);
     background-color: #696362;
     color: #e4e4e4
