@@ -53,21 +53,25 @@
                         <h3>Escribenos</h3>
                         <label for="nombre">Ingresa tu nombre</label>
                             <input type="text" id="nombre" name="nombre">
+                            <p id="name-error-message"></p>
                     </div>
 
                     <!--User's email-->
                     <div>
                         <label for="email">Ingresa tu correo electronico</label>
-                            <input type="email" id="email" name="email">
+                            <input type="text" id="email" name="email">
+                            <p id="email-error-message"></p>
                     </div>
 
                     <!--Message to send-->
                     <div>
                         <label for="mensaje">Ingresa un mensaje</label>
                             <textarea id="mensaje" name="mensaje"></textarea>
+                            <p id="message-error-message"></p>
                     </div>
 
                     <button type="submit">Enviar</button>
+                    <p id="success-message"></p>
                 </form>
             </section>
         </main>
@@ -79,5 +83,6 @@
         <!--Scripts-->
         <script src="js/nuevo-titulo.js"></script>
         <script src="js/esconder-parrafo.js"></script>
+        <script src="js/datos-formulario.js"></script>
     </body>
 </html>
